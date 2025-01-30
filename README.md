@@ -9,7 +9,7 @@ JobFitAI is an AI-powered tool designed to match job descriptions with resumes, 
 - Web-based interface for easy interaction
 
 ## Project Structure
-'''
+```
 JobFitAI/
 │── app.py                    # Main application script
 │── requirements.txt          # List of dependencies
@@ -28,11 +28,11 @@ JobFitAI/
 │   ├── response_parser.py    # Parses responses from the AI
 │   ├── visualizations.py     # Handles data visualization
 │   ├── __init__.py           # Package initialization file
-│
+|
 ├── media/
 │   ├── JobFitAI.mp4          # Demo video
 │   ├── Mind Map - Frame 1.jpg # Mind map image
-'''
+```
 
 ## Installation
 1. Clone the repository:
@@ -49,10 +49,10 @@ JobFitAI/
    ```sh
    python app.py
    ```
-Mind Map
 
-![Mindmap](media/your-mindmap-filename.png)
+## Mind Map
+![Mind Map](media/Mind%20Map%20-%20Frame%201.jpg)
 
-Demo Video
+## Demo Video
+[Watch the Demo](media/JobFitAI.mp4)
 
-[Watch Demo Video](media/your-video-filename.mp4)
