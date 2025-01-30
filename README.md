@@ -47,6 +47,3 @@ JobFitAI/
    ```sh
    python app.py
    ```
-
-
-# JobFitAI
