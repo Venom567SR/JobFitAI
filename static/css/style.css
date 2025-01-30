@@ -1,0 +1,100 @@
+/* Main styles */
+.main {
+    background-color: #f5f5f5;
+}
+
+/* Button styles */
+.stButton>button {
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #006666;
+    transform: translateY(-2px);
+}
+
+/* Tab styles */
+.css-1d391kg {
+    background-color: #E6E6FA;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+    background-color: #F5F5F5;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #E6E6FA;
+    border-radius: 4px 4px 0px 0px;
+    gap: 1px;
+    padding: 10px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: teal;
+    color: white;
+}
+
+/* Card styles */
+.custom-div {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.stats-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px 0;
+}
+
+/* Metric styles */
+.metric-container {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin: 10px 0;
+}
+
+/* Header styles */
+.app-header {
+    color: teal;
+    margin-bottom: 30px;
+}
+
+/* List styles */
+.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Alert styles */
+.success-alert {
+    background-color: #E6F3EF;
+    color: teal;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.error-alert {
+    background-color: #FFE5E5;
+    color: #D63649;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
